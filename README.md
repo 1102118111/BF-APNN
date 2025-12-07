@@ -10,15 +10,15 @@ Keywords: Radiative Transfer Equation, APNNs, Residual Network, Basis Function
 
 👥 Authors
 
-+ Xizhe Xie¹ (xiexizhe21@gscaep.ac.cn)
++ Xizhe Xie¹ 
 
-+ Wengu Chen¹² (chenwg@iapcm.ac.cn)
++ Wengu Chen¹² 
 
-+ Weiming Li¹ (liweiming@pku.edu.cn)
++ Weiming Li¹ 
 
-+ Peng Song¹³ (song_peng@iapcm.ac.cn)
++ Peng Song¹³
 
-+ Han Wang¹²³* (wang_han@iapcm.ac.cn) - Corresponding author
++ Han Wang¹²³*  - Corresponding author
 
 ¹ Institute of Applied Physics and Computational Mathematics, Beijing 100088, China.
 
