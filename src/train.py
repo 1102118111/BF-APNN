@@ -10,7 +10,6 @@ from utils.utils import *
 from utils.common import shard_to_single
 from getmodel import get_model
 import time
-from soap_jax import soap
 import orbax.checkpoint as ocp
 
 
@@ -77,7 +76,7 @@ if __name__ == '__main__':
         if old_T == 0.:
 
             scd = optax.exponential_decay(
-                        init_value=5e-3, 
+                        init_value=1e-3, 
                         transition_steps=200, 
                         decay_rate=0.95, 
                         end_value= 1e-6
@@ -96,13 +95,7 @@ if __name__ == '__main__':
 
             Epoch = adam_epoch
         optim = optax.chain(
-            soap(
-            learning_rate=scd,
-            b1=0.99,
-            b2=0.99,
-            weight_decay=0.01,
-            precondition_frequency=2,
-            ))
+            optax.adam(learning_rate=scd))
 
         print('Time = %.2f'%(Time))
         stats = optim.init(params)
