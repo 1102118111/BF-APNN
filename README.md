@@ -26,7 +26,6 @@ Keywords: Radiative Transfer Equation, APNNs, Residual Network, Basis Function
 
 ³ HEDPS, Center for Applied Physics and Technology, College of Engineering, Peking University, Beijing 100871, China.
 
-The work of W. Chen is supported partly by the NSFC No. 12271050, Foundation of National Key Laboratory of Computational Physics (Grant No. 6142A05230503).
 
 🔍 Overview
 
