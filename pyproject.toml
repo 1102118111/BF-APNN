@@ -2,7 +2,7 @@
 name = "bf-apnn"
 version = "0.1.0"
 description = "Boundary-Fitted Adaptive Physics-Informed Neural Network (JAX + Flax NNX)"
-authors = [{ name = "Your Name", email = "you@example.com" }]
+authors = [{ name = "Xizhe Xie", email = "xiexizhe21@gscaep.ac.cn" }]
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
