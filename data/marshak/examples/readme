@@ -1,0 +1,7 @@
+test1.cpp 说明：
+SetConst 函数设置参数 a(RadiationConst), c, Cv, eps
+Init: 设置 T 和 I 的初值。如果 I 初值和 mu 无关，设置 T 和 u[0]即可，且 u[0] = \int_{-1}^1 I d\mu.
+UpdateAbsorpCoeff: 设置sigma 
+
+运行方式参见 run.sh
+
